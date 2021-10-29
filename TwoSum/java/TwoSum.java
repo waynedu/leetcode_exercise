@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 class Solution {
-    
 
     public int[] twoSum(int[] nums, int target) {
     	int[] output = new int[2]; 
@@ -17,13 +16,7 @@ class Solution {
     		}
     		map.put(nums[i], i);
     	}
-    	
-    	
-    	
 		return output;
-    	
-    	
-    	
 //    	int index1 = 0;
 //    	int index2 = 0;
 //    	int output[] = { index1, index2 };
@@ -37,12 +30,10 @@ class Solution {
 //        			
 //        			index1 = i;
 //        			index2 = j;
-//        			return output;
-//        			
+//        			return output;		
 //        		}
 //        	}
 //        }
 //		return output;	
-        
     }
 }
